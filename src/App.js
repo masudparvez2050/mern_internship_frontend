@@ -6,10 +6,7 @@ import Register from "./pages/Register/Register";
 import Edit from "./pages/Edit/Edit";
 import Profile from "./pages/Profile/Profile";
 import { Routes, Route } from "react-router-dom"
-import { createRequire } from 'module';
 
-var require = createRequire(import.meta.url);
-var module = { exports: {} };
 
 function App() {
   return (
